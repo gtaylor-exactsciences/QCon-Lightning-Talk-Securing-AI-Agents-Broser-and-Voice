@@ -1,0 +1,19 @@
+{
+  "name": "qcon-ai-security-presentation",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "export:pdf": "slidev export --format pdf --per-slide --wait 1500 --timeout 60000 --output dist/securing-ai-agents-across-voice-and-web.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.1.0",
+    "@slidev/theme-default": "^0.25.0",
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "playwright-chromium": "1.65.0"
+  }
+}
