@@ -20,6 +20,8 @@ Target 00:00–00:49 · 49 seconds
 
 Hi, I’m Greg Taylor, a staff software engineer at Abbott. I’d like to share how we secured AI agents across voice and web, using web standards as a security foundation and a way to interoperate.
 
+There’s a link to the slides at the end.
+
 I'm focusing on the API integration security layer, but would recommend checking out the recording / notes for
 
 Weiping Peng's talk on How Airbnb Guardrailed Its AI Customer Support Agent for internal controls for the AI agent itself, and 
