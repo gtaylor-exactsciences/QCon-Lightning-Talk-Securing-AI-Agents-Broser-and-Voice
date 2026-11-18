@@ -13,7 +13,7 @@ fonts:
 
 # Securing AI Agents Across Voice and Web
 
-Greg Taylor @ Abbott
+[Greg Taylor](https://www.linkedin.com/in/gregorysdtaylor) @ Abbott
 
 <!--
 Target 00:00–00:49 · 49 seconds
