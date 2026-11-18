@@ -4,6 +4,7 @@ title: Securing AI Agents Across Voice and Web
 info: A five-minute talk about OAuth building blocks and interoperable delegation
 layout: cover
 colorSchema: light
+routerMode: hash
 defaults:
   class: '[&_a]:border-0 [&_a]:text-blue-600 [&_a]:underline [&_h3]:text-3xl
     [--slidev-code-font-size:16px] [--slidev-code-line-height:24px]'
@@ -39,10 +40,10 @@ title: Patient support — browser and voice
 
 ```mermaid {scale: 1.25, flowchart: {wrappingWidth: 120}, themeVariables: {edgeLabelBackground: '#ffffff'}}
 flowchart LR
-  chat@{ img: "/icons/chat.svg", label: "Browser chat", pos: "b", h: 64, constraint: "on" }
-  phone@{ img: "/icons/phone-voice.svg", label: "Phone call", pos: "b", h: 64, constraint: "on" }
-  agent@{ img: "/icons/bot.svg", label: "Support agent", pos: "b", h: 64, constraint: "on" }
-  api@{ img: "/icons/bare-metal-server.svg", label: "Patient APIs", pos: "b", h: 64, constraint: "on" }
+  chat@{ img: "icons/chat.svg", label: "Browser chat", pos: "b", h: 64, constraint: "on" }
+  phone@{ img: "icons/phone-voice.svg", label: "Phone call", pos: "b", h: 64, constraint: "on" }
+  agent@{ img: "icons/bot.svg", label: "Support agent", pos: "b", h: 64, constraint: "on" }
+  api@{ img: "icons/bare-metal-server.svg", label: "Patient APIs", pos: "b", h: 64, constraint: "on" }
 
   chat --> agent
   phone --> agent
@@ -323,10 +324,10 @@ title: Voice authentication
 
 ```mermaid {scale: 1.25, flowchart: {wrappingWidth: 120, rankSpacing: 20, nodeSpacing: 20}, themeVariables: {edgeLabelBackground: '#ffffff'}}
 flowchart LR
-  phone@{ img: "/icons/phone-voice.svg", label: "Phone call", pos: "b", h: 64, constraint: "on" }
-  agent@{ img: "/icons/bot.svg", label: "AI agent", pos: "b", h: 64, constraint: "on" }
-  auth@{ img: "/icons/security.svg", label: "Authorization server", pos: "b", h: 64, constraint: "on" }
-  api@{ img: "/icons/bare-metal-server.svg", label: "Patient APIs", pos: "b", h: 64, constraint: "on" }
+  phone@{ img: "icons/phone-voice.svg", label: "Phone call", pos: "b", h: 64, constraint: "on" }
+  agent@{ img: "icons/bot.svg", label: "AI agent", pos: "b", h: 64, constraint: "on" }
+  auth@{ img: "icons/security.svg", label: "Authorization server", pos: "b", h: 64, constraint: "on" }
+  api@{ img: "icons/bare-metal-server.svg", label: "Patient APIs", pos: "b", h: 64, constraint: "on" }
 
   phone -->|Voice interaction| agent
   agent -->|First-party<br/>applications flow<br/>IETF draft 04| auth

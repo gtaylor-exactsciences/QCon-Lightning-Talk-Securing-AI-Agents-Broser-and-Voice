@@ -12,10 +12,10 @@ config:
     [id*=-flowchart-api-], [data-id=access] { opacity: var(--stage3, 1); }
 ---
 flowchart LR
-  browser@{ img: "/icons/chat.svg", label: "Browser chat", pos: "b", h: 64, constraint: "on" }
-  agent@{ img: "/icons/bot.svg", label: "AI agent", pos: "b", h: 64, constraint: "on" }
-  auth@{ img: "/icons/security.svg", label: "Authorization server", pos: "b", h: 64, constraint: "on" }
-  api@{ img: "/icons/bare-metal-server.svg", label: "Patient APIs", pos: "b", h: 64, constraint: "on" }
+  browser@{ img: "icons/chat.svg", label: "Browser chat", pos: "b", h: 64, constraint: "on" }
+  agent@{ img: "icons/bot.svg", label: "AI agent", pos: "b", h: 64, constraint: "on" }
+  auth@{ img: "icons/security.svg", label: "Authorization server", pos: "b", h: 64, constraint: "on" }
+  api@{ img: "icons/bare-metal-server.svg", label: "Patient APIs", pos: "b", h: 64, constraint: "on" }
 
   browser -->|Authorization code<br/>flow · RFC 6749| auth
   browser handoff@-->|Patient token| agent
